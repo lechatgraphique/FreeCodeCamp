@@ -1,0 +1,60 @@
+body {
+    font-family: "Tahoma", serif;
+    background-color: #1b1b1c;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1, p {
+    text-align: center;
+    color: white;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+}
+
+.survey-form {
+    max-width: 600px;
+    background-color: rgba(119, 112, 196, 0.71);
+    margin: 20px auto;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+input, select {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin: 1rem 0;
+}
+
+.small-title {
+    font-size: 0.8rem;
+}
+
+.form-check {
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+.form-check-label{
+    display: inline-block;
+}
+.form-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-control {
+    display: block;
+    width: 100%;
+}
