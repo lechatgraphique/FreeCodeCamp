@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+h1 {
+    font-size: 4rem;
+    font-family: Times, sans-serif;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.richardstoneimages.co.uk/wp-content/uploads/2016/06/David-Bowie-Cigarette.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+main {
+    padding: 40px 0;
+    width: 800px;
+    margin: 0 auto;
+}
+.p-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width:100%;
+    border-radius:50%;
+    margin-bottom: 50px;
+}
+header > section  {
+    color: white;
+}
+
+header > .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 100%;
+    padding: 0 180px;
+}
+p {
+    margin-bottom: 5px;
+}
+.fw-light {
+    font-weight: 100;
+}
+a {
+    display: inline-block;
+    background-color: #1b1b1c;
+    color: white;
+    margin: 10px 0;
+    padding: 5px 20px;
+    border: 2px solid #1b1b1c;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.uppercase {
+    text-transform: uppercase ;
+}
+.article {
+    width: 800px;
+    margin: 0 auto;
+}
+.article > h2 {
+    font-family: Times, sans-serif;
+    margin-bottom: 10px;
+}
+.article > p {
+    line-height: 180%;
+    text-align: justify;
+}
+.article small {
+    color: #868686;
+    font-style: italic;
+
+}
+hr {
+    margin: 20px 0;
+    border: 1px solid #dcdcdc;
+}
