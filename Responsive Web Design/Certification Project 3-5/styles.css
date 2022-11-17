@@ -1,5 +1,5 @@
 * {
-    margin:0;
+
 }
 html {
     box-sizing: border-box;
@@ -17,7 +17,8 @@ nav {
 .container {
     width: 68%;
     position: absolute;
-    margin-left: 32%;
+    padding: 0 20px;
+    margin-left: calc(32% - 40px);
 }
 nav h1 {
     padding: 15px;
@@ -39,4 +40,18 @@ nav h1 {
 }
 .container {
     float: right;
+}
+code {
+    display: block;
+    background-color: #d0d0d5;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+section header {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+section ul li {
+    margin-bottom: 10px;
 }
