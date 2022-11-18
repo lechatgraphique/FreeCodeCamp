@@ -1,9 +1,8 @@
 * {
-
-}
-html {
+    margin: 0;
     box-sizing: border-box;
 }
+
 main {
     display: flex;
 }
@@ -14,17 +13,23 @@ nav {
     height: 100vh;
     border-right: 2px solid black;
 }
+
 .container {
-    width: 68%;
+    width:
+            70%;
     position: absolute;
     padding: 0 20px;
     margin-left: calc(32% - 40px);
+}
+nav header {
+    font-size: 2rem;
+    padding: 15px;
 }
 nav h1 {
     padding: 15px;
     border-bottom: 2px solid black;
 }
-.nav-item {
+.nav-link {
     display: block;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -32,10 +37,10 @@ nav h1 {
     text-decoration: none;
     color: black;
 }
-.nav-item:first-child {
-     border-top: none;
- }
-.nav-item:last-child {
+.nav-link:first-child {
+    border-top: none;
+}
+.nav-link:last-child {
     border-bottom: none;
 }
 .container {
@@ -54,4 +59,10 @@ section header {
 }
 section ul li {
     margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    nav header {
+        color:#4d0f00;
+    }
 }
