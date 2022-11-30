@@ -9,81 +9,90 @@
     <title>Personal Portfolio Webpage</title>
 </head>
 <body class="container">
-    <header>
-        <img src="" alt="">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="welcome-section">
-            <div class="toto bg-contact">
-                <h1>Hello, I’m Abo, a product Designer With 7 years of experience.</h1>
-                <p>I care a lot about using design for positive impact. and enjoy creating user-centric, delightful, and human experiences.</p>
-                <div class="socials">
-                    <a href="mailto:hello@lechatgraphique.fr" class="social btn-contact-me">Contact me</a>
-                    <a href="#" class="social btn-social"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
-                    <a href="#" class="social btn-social"><i class="fa-brands fa-twitter fa-lg"></i></a>
-                    <a href="#" class="social btn-social"><i class="fa-brands fa-square-github fa-lg"></i></a>
-                    <a href="#" class="social btn-social"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-                </div>
+<nav id="navbar" class="header-bar">
+    <img src="images/logo.jpg" alt="Logo">
+    <ul>
+        <li class="mr-2">
+            <a href="#welcome-section">Home</a>
+        </li>
+        <li class="mr-2">
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <section id="welcome-section" class="hero">
+        <div class="welcome bg-radial-gradient">
+            <div class="intro ">
+                <h1>Hello, I'm Bastien, a future fullstack developer</h1>
+                <p>Today you see my latest Responsive Web Design project certification, FreeCodeCamp</p>
+                <p>hello@lechatgraphique.fr</p>
             </div>
-            <div>
-                <img src="images/portrait.png" alt="">
-            </div>
-        </section>
-        <section id="projects">
-            <div class="card">
-                <div class="card-header">
-                    <h2>App 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <img src="https://cdn.dribbble.com/userupload/4083225/file/original-5415ee905a1777ae0064cd6b88ee5cf1.png?compress=1&resize=752x" alt="">
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>App 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <img src="https://cdn.dribbble.com/users/13514038/screenshots/20021065/media/32a6b6177d978d7eadc514a30670db9d.png?compress=1&resize=752x" alt="">
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>App 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <img src="https://cdn.dribbble.com/userupload/4084519/file/original-2f7d2700874c51f1984145a246abf213.png?compress=1&resize=752x" alt="">
-            </div>
-            <div class="card">
-                <div class="card-header">
-                    <h2>App 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <img src="https://cdn.dribbble.com/userupload/4056529/file/original-98dccc6e6726a0d107eebbc6dbfda13c.png?compress=1&resize=752x" alt="">
-            </div>
-        </section>
-        <section id="contacts" class="bg-contact">
-            <h1>Want to work together?</h1>
-            <p>Feel free to reach out for collaborations or just a friendly hello</p>
-            <p>hello@lechatgraphique.fr</p>
-            <div class="socials">
+            <div class="medias">
                 <a href="mailto:hello@lechatgraphique.fr" class="social btn-contact-me">Contact me</a>
                 <a href="#" class="social btn-social"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
                 <a href="#" class="social btn-social"><i class="fa-brands fa-twitter fa-lg"></i></a>
                 <a href="#" class="social btn-social"><i class="fa-brands fa-square-github fa-lg"></i></a>
                 <a href="#" class="social btn-social"><i class="fa-brands fa-linkedin fa-lg"></i></a>
             </div>
-        </section>
-    </main>
+        </div>
+        <img src="images/portrait.png" alt="Portait photo Bastien CLEMENT">
+    </section>
+    <section id="projects" class="project">
+        <a href="#">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Cooking Course Apps</h2>
+                    <p>Rizal Gradian 🐳 for Vektora</p>
+                </div>
+                <img src="https://cdn.dribbble.com/userupload/4085509/file/original-a482b528084ba8567e55c98ba0dd59e3.png?compress=1&resize=752x" alt="Cooking Course Apps">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card project-tile">
+                <div class="card-header">
+                    <h2>The concept for the eSim Application</h2>
+                    <p>Vladyslav Tulinovskyi for Zajno</p>
+                </div>
+                <img src="https://cdn.dribbble.com/users/1551542/screenshots/20016227/media/21c5589b37649fc4ff6c3f690b8ab978.png?compress=1&resize=752x" alt="The concept for the eSim Application">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card project-tile">
+                <div class="card-header">
+                    <h2>Healing - Traveling Mobile App</h2>
+                    <p>Bagus Pambudi for Columbus</p>
+                </div>
+                <img src="https://cdn.dribbble.com/userupload/4084778/file/original-d1ee01156fe7154c1ddfef27bb78c137.png?compress=1&resize=752x" alt="Healing - Traveling Mobile App">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card project-tile">
+                <div class="card-header">
+                    <h2>Exquisite : Jewellery Store App</h2>
+                    <p>300Mind UI/UX for 300</p>
+                </div>
+                <img src="https://cdn.dribbble.com/userupload/4085069/file/original-85ef81bef28d0a61ffe15ec1919264df.jpg?compress=1&resize=752x" alt="">
+            </div>
+        </a>
+    </section>
+    <section id="contact" class="welcome bg-radial-gradient">
+        <div class="intro">
+            <h1>Want to work together?</h1>
+            <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            <p>hello@lechatgraphique.fr</p>
+        </div>
+        <div class="medias">
+            <a href="mailto:hello@lechatgraphique.fr" class="social btn-contact-me">Contact me</a>
+            <a href="#" id="profile-link" class="social btn-social" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
+            <a href="#" id="profile-link" class="social btn-social" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a>
+            <a href="#" id="profile-link" class="social btn-social" target="_blank"><i class="fa-brands fa-square-github fa-lg"></i></a>
+            <a href="#" id="profile-link" class="social btn-social" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
+    </section>
+</main>
 </body>
 </html>
