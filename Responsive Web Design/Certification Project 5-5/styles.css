@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+:root {
+    --color-base: #1b1b1c;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+.bg-contact {
+    background-image: linear-gradient(
+            70deg,
+            hsl(0deg 0% 95%) 0%,
+            hsl(40deg 72% 85%) 39%,
+            hsl(46deg 53% 80%) 61%,
+            hsl(153deg 24% 82%) 100%
+    );
+    padding: 3rem;
+    border-radius: 20px;
+}
+.bg-contact h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.bg-contact p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.btn-contact-me {
+    text-align: center;
+    padding: 1rem 3rem;
+    margin-right: 2px;
+    color: white;
+    background-color: var(--color-base);
+    border-radius: 50px;
+    text-decoration: none;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.btn-social {
+    display: flex;
+    align-items: center;
+    width: 3rem ;
+    height: 3rem;
+    padding: 1rem;
+    margin: 0 4px;
+    color: var(--color-base);
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card {
+
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+
+}
+#projects .card {
+    flex: 0 0 auto;
+    width: calc(50% - 12px);
+}
+#projects .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+}
+#projects .card .card-header {
+    position: absolute;
+    padding: 2rem;
+}
+#welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+#welcome-section .toto {
+    flex: 1 1 0;
+    width: calc(50% - 12px);
+}
+#welcome-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+#welcome-section div:nth-of-type(2) {
+    width: 100%;
+    flex-basis: 450px;
+}
